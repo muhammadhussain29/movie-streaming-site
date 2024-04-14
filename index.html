@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Movie Streaming Site</title>
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar  -->
+    <div class="nav">
+        <h2 class="logo">LOGO</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#trending">Trending</a>
+            <a href="#news">News</a>
+            <a href="#subscription">Subscription</a>
+        </div>
+    </div>
+
+    <!-- Slider  -->
+    <div class="parent-container ">
+        <!-- slider buttons  -->
+        <button class="slider-btn" id="slider-btn-left"> < </button>
+                <button class="slider-btn" id="slider-btn-right">></button>
+                <!-- Container 1 -->
+                <div class="container" id="container-1">
+                    <h1 class="heading-1 first-heading-animation ">Experience The World Of Cinema</h1>
+                    <p class="sub-text-1 first-text-animation py-1">Welcome! Your go-to destination for the
+                        best in movies. Sit back, relax, and enjoy a world of entertainment. Start streaming now!</p>
+                    <div class="btn">
+                        <button class=" btn-1 first-btn-animation">Browse Movies</button>
+                        <button class=" btn-1 first-btn-animation">Login | Sign-Up</button>
+                    </div>
+                </div>
+                <!-- Container 2 -->
+                <div class="container" id="container-2">
+                    <h3 class="heading-2">Continue Watching...</h3>
+                    <h2 class="heading-1 ">Gangs of Wasseypur</h2>
+                    <p class="sub-text-1 py-1">Gangs of Wasseypur is a 2012 Indian Hindi-language two-part gangster
+                        action crime film produced and directed by Anurag Kashyap, and written by Kashyap and Zeishan
+                        Quadri</p>
+                    <div class="btn">
+                        <button class=" btn-1 btn-animation">Watch Trailer</button>
+                        <button class=" btn-1 btn-animation">Resume</button>
+                    </div>
+                </div>
+                <!-- Container 3 -->
+                <div class="container" id="container-3">
+                    <h3 class="heading-2">Trending Now</h3>
+                    <h2 class="heading-1 ">Oppenheimer</h2>
+                    <p class="sub-text-1 py-1">During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J.
+                        Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of
+                        scientists spend years developing and designing the atomic bomb. Their work comes to fruition on
+                        July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course
+                        of history.</p>
+                    <div class="btn">
+                        <button class=" btn-1 btn-animation">Watch Trailer</button>
+                        <button class=" btn-1 btn-animation">Watch Movie</button>
+                    </div>
+                </div>
+                <!-- Container 4 -->
+                <div class="container" id="container-4">
+                    <h3 class="heading-2">Coming soon...</h3>
+                    <h2 class="heading-1 ">Deadpool 3</h2>
+                    <p class="sub-text-1 py-1">Release date: May 3, 2024 | Wolverine is recovering from his injuries
+                        when he crosses paths with the loudmouth, Deadpool. They team up to defeat a common enemy.</p>
+                    <div class="btn">
+                        <button class=" btn-1 btn-animation">Watch Trailer</button>
+                        <button class=" btn-1 btn-animation">See News</button>
+                    </div>
+                </div>
+    </div>
+    <!-- Trending Now -->
+    <div class="trending-section section" id="trending">
+        <div class="heading-1">Trending Now</div>
+        <hr class="line">
+        <div class="card-container" id="trending-list">
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/oppen.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Oppenheimer</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Thriler</span><span
+                        class="sub-text-2">7.7</span></div>
+            </div>
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/barbie.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Barbie</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Sci-Fi</span><span
+                        class="sub-text-2">7.2</span></div>
+            </div>
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/Gardians.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Guardians of the galaxy vol 3</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Sci-Fi</span><span
+                        class="sub-text-2">8.7</span></div>
+            </div>
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/Spider-Man Across the Spider-Verse.jpg" alt="">
+                </div>
+                <div class="sub-text-1 movies-name">Spider-Man across the Spider-Verse</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Sci-Fi</span><span
+                        class="sub-text-2">7.1</span></div>
+            </div>
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/fast 9.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Fast 9</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Action</span><span
+                        class="sub-text-2">8.7</span></div>
+            </div>
+            <div class="card movies fix">
+                <div class="img-container"><img src="/Images/Posters/my fault.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">My Fault</div>
+                <div class="detail"> <span class="sub-text-2 movies-genre">Action</span><span
+                        class="sub-text-2">7.1</span></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- More For you -->
+    <div class="ForYou-section section">
+        <div class="heading-1">More For You</div>
+        <hr class="line">
+
+        <div class="options">
+            <ul>
+                <li class="dropdown-btn">Genre</li>
+                <ul class="dropdown hide">
+                    <li class="drop-item">Action</li>
+                    <li class="drop-item">Romance</li>
+                    <li class="drop-item">Comedy</li>
+                    <li class="drop-item">Sci-Fi</li>
+                    <li class="drop-item">Horror</li>
+                </ul>
+            </ul>
+
+            <div class="search">
+                <input type="search" name="" id="search-bar" placeholder="Search" class="hide">
+                <img src="./Images/search (1).png" alt="" id="search-btn">
+            </div>
+        </div>
+
+        <div class="card-container" id="movies-list">
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/Avengers Infinity war.jpeg" alt=""></div>
+                <div class="sub-text-1 movies-name">Avengers Infinity War</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Sci-Fi</span> <span
+                        class="sub-text-2">8.5</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/crazy stupid love.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Crazy Stupid Love</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Comedy</span> <span
+                        class="sub-text-2">6.5</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/extraction.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Extraction</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Action</span> <span
+                        class="sub-text-2">7.5</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/Avengers endgame.jpeg" alt=""></div>
+                <div class="sub-text-1 movies-name">Avengers EndGame</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Sci-Fi</span> <span
+                        class="sub-text-2">8.8</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/god father.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">God Father</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Thriler</span> <span
+                        class="sub-text-2">9</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/inception.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Inception</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Sci-Fi</span> <span
+                        class="sub-text-2">8.5</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/kissing booth.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Kissing Booth</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Romance</span> <span
+                        class="sub-text-2">5.5</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/lucy.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Lucy</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Sci-Fi</span> <span
+                        class="sub-text-2">6.4</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/man fro.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Man From Toronto</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Comedy</span> <span
+                        class="sub-text-2">8.1</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/red notice.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Red Notice</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Action</span> <span
+                        class="sub-text-2">6.6</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/ride along.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Ride Along</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Comedy</span> <span
+                        class="sub-text-2">5.2</span></div>
+            </div>
+            <div class="card movies">
+                <div class="img-container"><img src="/Images/Posters/scream.jpg" alt=""></div>
+                <div class="sub-text-1 movies-name">Scream</div>
+                <div class="detail"><span class="sub-text-2 movies-genre">Horror</span> <span
+                        class="sub-text-2">7.8</span></div>
+            </div>
+        </div>
+        <button class=" btn-1 btn-animation">View More</button>
+    </div>
+    <hr>
+    <!-- News -->
+    <div class="news-section section" id="news">
+        <div class="heading-1">Reel Insights</div>
+        <div class="sub-text-1">Discover the Latest in Cinema</div>
+        <hr class="line">
+        <div class="box">
+            <div class="one">
+
+                <div class="heading-2">The Incredibles' Returns to Theatres For Disney 100</div>
+            </div>
+            <div class="two">
+
+                <div class="heading-2">Justified: City Primeval' Showrunners Break Down That Explosive Season Finale
+                </div>
+            </div>
+            <div class="three">
+
+                <div class="sub-text-1">The 50 Best Movies on Netflix Right Now</div>
+            </div>
+            <div class="four">
+
+                <div class="sub-text-1">'The Godfather' Almost Had a Completely Different Corleone Family</div>
+            </div>
+        </div>
+    </div>
+    <!-- About us -->
+    <div class="about-section section" id="about">
+        <div class="heading-1">Who are We?</div>
+        <hr class="line">
+        <div class="sub-text-1">At Cinepop, we're passionate about bringing the magic of movies right to your screen.
+            Our mission is to curate an exceptional collection of films that cater to every mood and movies-genre genre,
+            ensuring there's something for everyone to enjoy. With a deep appreciation for storytelling and the
+            cinematic experience, we've created a platform where you can immerse yourself in a world of entertainment.
+            Whether you're a dedicated cinephile or just looking for a great movie night, Cinepop is your gateway to
+            captivating stories, unforgettable moments, and unparalleled movie magic.</div>
+    </div>
+    <div class="partnership-section section">
+        <div class="heading-1">Our Partners</div>
+        <hr class="line">
+        <div class="partners">
+            <img src="./Images/pngwing.com (15).png" alt="">
+            <img src="./Images/pngwing.com (18).png" alt="">
+            <img src="./Images/pngwing.com (19).png" alt="">
+            <img src="./Images/pngwing.com (22).png" alt="">
+        </div>
+    </div>
+    <hr>
+    <!-- Subscription Plans -->
+    <div class="subscription-section section" id="subscription">
+        <div class="heading-1">Join us Now</div>
+        <hr class="line">
+        <div class="plans">
+            <div class="plan-card">
+                <div class="details-card">
+                    <div class="heading-2">Basic</div>
+                    <div class="sub-text-2"><span class="col-red">&#10006;</span> Feature one</div>
+                    <div class="sub-text-2"><span class="col-red">&#10006;</span> Feature Two</div>
+                    <div class="sub-text-2"><span class="col-red">&#10006;</span> Feature Three</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Four</div>
+                    <div class="super-circle">
+                        <div class="circle">
+                            <div class="heading-1 ">19<span class="cent">.99$</span></div>
+                            <div class="sub-text-1">Per Month</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="details-card">
+                    <div class="heading-2">Standard</div>
+                    <div class="sub-text-2"><span class="col-red">&#10006;</span> Feature one</div>
+                    <div class="sub-text-2"><span class="col-red">&#10006;</span> Feature Two</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Three</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Four</div>
+                    <div class="super-circle">
+                        <div class="circle">
+                            <div class="heading-1 ">49<span class="cent">.99$</span></div>
+                            <div class="sub-text-1">Per Month</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="plan-card">
+                <div class="details-card">
+                    <div class="heading-2">Premium</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature one</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Two</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Three</div>
+                    <div class="sub-text-2"><span class="col-green">&#10004;</span> Feature Four</div>
+                    <div class="super-circle">
+                        <div class="circle">
+                            <div class="heading-1 ">99<span class="cent">.99$</span></div>
+                            <div class="sub-text-1">Per Month</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Footer + News Letter -->
+    <div class="footer section">
+        <div class="newsletter">
+            <div class="heading-2">Join our newsletter</div>
+            <div class="email">
+                <input type="email" name="" id="" placeholder="Enter Your Email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="description">
+                <div class="heading-1">LOGO</div>
+                <p class="sub-text-2 col-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima
+                    quasi dignissimos sit itaque dolores id ex, repudiandae aliquam maxime similique iusto corporis.
+                    Soluta, veniam. Quos suscipit neque repellendus dicta!</p>
+                <div class="social-icons">
+                    <img src="./Images/facebook.png" alt="">
+                    <img src="./Images/instagram.png" alt="">
+                    <img src="./Images/twitter.png" alt="">
+                </div>
+            </div>
+            <div class="links">
+                <div class="heading-2 col-grey">Navigation</div>
+                <a href="#" class="sub-text-2 col-white">home</a>
+                <a href="#" class="sub-text-2 col-white">Genre</a>
+                <a href="#" class="sub-text-2 col-white">News</a>
+                <a href="#" class="sub-text-2 col-white">Subscription</a>
+                <a href="#" class="sub-text-2 col-white">Download</a>
+            </div>
+            <div class="news">
+                <div class="heading-2 col-grey">Latest in News</div>
+                <a href="#" class="sub-text-2 col-white">The Incredibles' Returns to Theatres For Disney 100</a>
+                <a href="#" class="sub-text-2 col-white">Justified: City Primeval' Showrunners Break Down That Explosive
+                    Season Finale</a>
+                <a href="#" class="sub-text-2 col-white">The 50 Best Movies on Netflix Right Now</a>
+                <a href="#" class="sub-text-2 col-white">'The Godfather' Almost Had a Completely Different Corleone
+                    Family</a>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-end">
+            <div class="sub-text-2">Copyright @ 2023</div>
+            <div class="sub-text-2">Privacy Policy | Terms and Conditions</div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
