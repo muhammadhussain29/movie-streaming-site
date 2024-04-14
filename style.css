@@ -54,7 +54,7 @@
     /* position: absolute; */
     z-index: 1;
     /* top: 0vh; */
-    background-image: url(images/Welcome.jpg);
+    background-image: url(Images/Welcome.jpg);
 }
 
 #container-2 {
@@ -62,7 +62,7 @@
     /* position: absolute; */
     /* top: 0vh; */
     /* transform: translateY(-750px); */
-    background-image: url(images/gang\ of\ wassepur\ hd\ poster.jpg);
+    background-image: url(Images/gang\ of\ wassepur\ hd\ poster.jpg);
 }
 
 #container-3 {
@@ -70,7 +70,7 @@
     /* transform: translateY(-1500px); */
     /* position: absolute; */
     /* top: 0vh; */
-    background-image: url(images/oppenheimer-hd.jpg);
+    background-image: url(Images/oppenheimer-hd.jpg);
 }
 
 #container-4 {
@@ -78,7 +78,7 @@
     /* margin-left: 100vw; */
     /* position: absolute; */
     /* top: 0vh; */
-    background-image: url(images/deadpool-3.jpg);
+    background-image: url(Images/deadpool-3.jpg);
 }
 
 
