@@ -55,7 +55,7 @@
     /* position: absolute; */
     z-index: 1;
     /* top: 0vh; */
-    background-image: url(Images/Welcome.jpg);
+    background-image: url(Images/Welcome.webp);
 }
 
 #container-2 {
@@ -63,7 +63,7 @@
     /* position: absolute; */
     /* top: 0vh; */
     /* transform: translateY(-750px); */
-    background-image: url(Images/gang\ of\ wassepur\ hd\ poster.jpg);
+    background-image: url(Images/gang\ of\ wassepur\ hd\ poster.webp);
 }
 
 #container-3 {
@@ -71,7 +71,7 @@
     /* transform: translateY(-1500px); */
     /* position: absolute; */
     /* top: 0vh; */
-    background-image: url(Images/oppenheimer-hd.jpg);
+    background-image: url(Images/oppenheimer-hd.webp);
 }
 
 #container-4 {
@@ -79,7 +79,7 @@
     /* margin-left: 100vw; */
     /* position: absolute; */
     /* top: 0vh; */
-    background-image: url(Images/deadpool-3.jpg);
+    background-image: url(Images/deadpool-3.webp);
 }
 
 
@@ -264,7 +264,7 @@
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.55);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -275,20 +275,20 @@
 .news-section .box .one {
     grid-column: span 2;
     grid-row: span 2;
-    background-image: url(Images/news-1.jpg);
+    background-image: url(Images/news-1.webp);
 }
 
 .news-section .box .two {
     grid-column: span 2;
-    background-image: url(Images/news-2.jpg);
+    background-image: url(Images/news-2.webp);
 }
 
 .news-section .box .three {
-    background-image: url(Images/news-3.jpg);
+    background-image: url(Images/news-3.webp);
 }
 
 .news-section .box .four {
-    background-image: url(Images/news-4.jpg);
+    background-image: url(Images/news-4.webp);
 }
 
 
@@ -303,8 +303,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.65);
-    background-image: url(Images/about\ us.jpg);
+    background-color: rgba(0, 0, 0, 0.55);
+    background-image: url(Images/about\ us.webp);
     background-position: center;
     background-blend-mode: overlay;
     background-size: cover;
