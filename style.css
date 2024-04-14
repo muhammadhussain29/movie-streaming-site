@@ -660,6 +660,8 @@
     .options .search {
         flex-direction: row;
         margin-top: 10px;
+        justify-content: right;
+        width: 30px;
     }
 
     .options .search input {
@@ -678,7 +680,7 @@
     /* Searchbar Opening / Clossing Animation */
     @keyframes search-slide-out {
         0% {
-            width: 0px;
+            /* width: 0px; */
             justify-content: right;
             border: white 1px solid;
         }
@@ -700,13 +702,7 @@
         }
 
         95% {
-            width: 30px;
             border: none;
-        }
-
-        100% {
-            width: 0px;
-            justify-content: left;
         }
     }
 
