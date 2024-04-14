@@ -43,56 +43,23 @@
     background-size: cover;
     position: absolute;
     top: 0vh;
-    /* transform: translateX(100vw); */
 }
-/* .parent-container > .container:nth-child(1){transform: translateY(0px);}
-.parent-container > .container:nth-child(2){transform: translateY(-750px);}
-.parent-container > .container:nth-child(3){transform: translateY(-1500px);}
-.parent-container > .container:nth-child(4){transform: translateY(-2250px);} */
-
 #container-1 {
-    /* transform: translateX(0vw); */
-    /* position: absolute; */
     z-index: 1;
-    /* top: 0vh; */
     background-image: url(Images/Welcome.webp);
 }
 
 #container-2 {
-    /* margin-left: 100vw; */
-    /* position: absolute; */
-    /* top: 0vh; */
-    /* transform: translateY(-750px); */
     background-image: url(Images/gang\ of\ wassepur\ hd\ poster.webp);
 }
 
 #container-3 {
-    /* margin-left: 100vw; */
-    /* transform: translateY(-1500px); */
-    /* position: absolute; */
-    /* top: 0vh; */
     background-image: url(Images/oppenheimer-hd.webp);
 }
 
 #container-4 {
-    /* transform: translateY(-2250px); */
-    /* margin-left: 100vw; */
-    /* position: absolute; */
-    /* top: 0vh; */
     background-image: url(Images/deadpool-3.webp);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* Movies Section */
 .trending-section,
 .ForYou-section {
@@ -230,18 +197,7 @@
     justify-content: space-between;
     align-items: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* News section */
 .news-section {
     display: flex;
     flex-direction: column;
@@ -291,13 +247,7 @@
     background-image: url(Images/news-4.webp);
 }
 
-
-
-
-
-
-
-
+/* About section */
 .about-section {
     display: flex;
     flex-direction: column;
@@ -342,20 +292,7 @@
     filter: invert(100);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Subcription */
 .subscription-section {
     display: flex;
     flex-direction: column;
@@ -436,31 +373,13 @@
     border: 7px solid grey;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer */
 .footer {
     padding: 1vh 8vw;
 }
 
 .newsletter {
     background-image: linear-gradient(225deg, red, darkred 50%, rgb(50, 0, 0));
-    /* height: 100px; */
     width: 100%;
     border-radius: 20px;
     position: relative;
@@ -561,27 +480,6 @@
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ----------------------------------------------------> Slider ANIMATIONS  */
 /* Animation Classes to be used By JavaScript */
 .container-animation-slide-in-forward {
@@ -643,49 +541,41 @@
 /* Slider Animations  */
 @keyframes slide-in-forward {
     0% {
-        /* left: 100vw; */
         transform: translatex(100vw);
     }
     
     100% {
         transform: translatex(0vw);
-        /* left: 0vw; */
     }
 }
 
 @keyframes slide-out-forward {
     0% {
         transform: translatex(0vw);
-        /* right: 0vw; */
     }
     
     100% {
         transform: translatex(-100vw);
-        /* right: 100vw; */
     }
 }
 
 @keyframes slide-in-backward {
     0% {
         transform: translatex(-100vw);
-        /* right: 100vw; */
     }
     
     100% {
         transform: translatex(0vw);
-        /* right: 0vw; */
     }
 }
 
 @keyframes slide-out-backward {
     0% {
         transform: translatex(0vw);
-        /* left: 0vw; */
     }
     
     100% {
         transform: translatex(100vw);
-        /* left: 100vw; */
     }
 }
 
@@ -724,22 +614,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------------------->>> Responsive CSS */
 @media screen and (max-width: 768px) {
 
@@ -773,9 +647,7 @@
         height: 800px;
         text-align: center;
     }
-
-
-
+    /* movies list */
     .options {
         display: flex;
         flex-direction: column;
@@ -838,8 +710,6 @@
         }
     }
 
-
-
     .card {
         width: 110px;
         height: 200px;
@@ -855,12 +725,7 @@
         height: 120px;
     }
 
-
-
-
-
-
-
+    /* News */
     .news-section .box {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         grid-auto-rows: 150px;
@@ -873,15 +738,7 @@
     .four {
         padding: 1px;
     }
-
-
-
-
-
-
-
-
-
+    /* About */
     .about-section .sub-text-1 {
         padding: 15px 10px;
     }
@@ -890,13 +747,7 @@
         height: 35px;
         margin: 20px 10px;
     }
-
-
-
-
-
-
-
+    /* subscription */
     .plan-card {
         height: 350px;
         width: 200px;
@@ -922,16 +773,7 @@
         width: 130px;
         height: 130px;
     }
-
-
-
-
-
-
-
-
-
-
+    /* Footera */
     .footer {
         padding: 1vh 4vw;
     }
@@ -964,5 +806,4 @@
         min-width: 200px;
         max-width: 300px;
     }
-
 }
